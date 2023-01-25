@@ -204,7 +204,6 @@ char **argv;
 
         HI = i;
         LO = .35*HI;
-        printf("HI THRESHOLD %f", HI);
 
         //Find final peaks
         for(i=mr;i<256-mr;i++){
