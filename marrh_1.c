@@ -13,7 +13,7 @@
          double xmask[MAXMASK][MAXMASK];
          double ymask[MAXMASK][MAXMASK];
          double conv1[PICSIZE][PICSIZE];
-         double conv2[PICSIZE][PICSIZE];
+         double conv_y[PICSIZE][PICSIZE];
          double ival[256][256],maxival;
 
 
@@ -106,7 +106,7 @@ char **argv;
              outpic1[i][j] = sum1;
              outpic2[i][j] = sum2;
              conv1[i][j] = sum1;
-             conv2[i][j] = sum2;
+             conv_y[i][j] = sum2;
           }
         }
 
